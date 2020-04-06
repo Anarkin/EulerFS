@@ -1,6 +1,8 @@
 # EulerFS
 
-[PE](https://projecteuler.net) in F# — a sandbox for learning. Originally implemented in 2015, refreshed in '20.
+[PE](https://projecteuler.net) in F# — a sandbox for learning. Originally implemented in 2015, refreshed for 2020.
+
+[![Build status](https://ci.appveyor.com/api/projects/status/ebw354095sckl362?svg=true)](https://ci.appveyor.com/project/Anarkin/eulerfs)
 
 ## How to work on a problem
 
