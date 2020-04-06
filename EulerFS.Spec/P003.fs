@@ -11,3 +11,5 @@ module ``Largest prime factor`` =
         |> Seq.filter (fun i -> input % i = 0UL) // divisors
         |> Seq.filter (Math.Prime.Tester.naiveImpl)
         |> Seq.last
+
+// todo factorization
