@@ -1,4 +1,4 @@
-﻿namespace EulerFS
+namespace EulerFS
 
 open System
 open NUnit.Framework
@@ -32,7 +32,6 @@ module AutoRunner =
                     TestCaseData(expected, solver).SetName(testCaseName)))
 
     [<Test>]
-    [<Timeout(1000)>]
     [<TestCaseSource(typedefof<Factory>, "Get")>]
     let run (expected: obj option, solver: unit -> obj) =
         match expected with
