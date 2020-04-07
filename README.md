@@ -1,6 +1,6 @@
 # EulerFS
 
-[PE](https://projecteuler.net) in F# — a sandbox for learning. Originally implemented in 2015, refreshed for 2020.
+[PE](https://projecteuler.net) in F# — a sandbox for learning Computer Science, Mathematics, and F#. Originally implemented in 2015, refreshed for 2020.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ebw354095sckl362?svg=true)](https://ci.appveyor.com/project/Anarkin/eulerfs)
 
@@ -23,7 +23,7 @@ module ``Special Pythagorean triplet`` =
 > dotnet test -v=normal
 ```
 
-```f#
+```
   ❌ 009 - 'Special Pythagorean triplet' [impl()] [<1ms]
   ----> NUnit.Framework.InconclusiveException : suspected answer is 42
 
@@ -47,7 +47,7 @@ module ``Special Pythagorean triplet`` =
 module (...)
 ```
 
-- and you are safe to spend your night refactoring:
+- and you are safe to spend your night refactoring or trying to find a more mathematical solution:
 
 ```
   ✅ 009 - 'Special Pythagorean triplet' → Answer: 31875000 [impl()] [28ms]
@@ -59,4 +59,5 @@ module (...)
 
 ## Next steps
 
-- F# for fun and profit ;) [[1]](https://fsharpforfunandprofit.com)
+1. [F# for fun and profit](https://fsharpforfunandprofit.com) ;)
+2. Note that PE's problems are about more than "leetcoding" your way forward: you can find mathematical answers as well for most—if not all—solutions, often in O(1) time
