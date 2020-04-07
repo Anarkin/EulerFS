@@ -12,6 +12,8 @@
     <Compile Include="Math.Prime.Tester.Spec.fs" />
     <Compile Include="Math.Sequences.Fibonacci.fs" />
     <Compile Include="Math.Sequences.Fibonacci.Spec.fs" />
+    <Compile Include="Math.Lcm.fs" />
+    <Compile Include="Math.Lcm.Spec.fs" />
     <Compile Include="P001.fs" />
     <Compile Include="P002.fs" />
     <Compile Include="P003.fs" />
