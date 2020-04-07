@@ -6,6 +6,8 @@
   <ItemGroup>
     <Compile Include="Attributes.fs" />
     <Compile Include="AutoRunner.fs" />
+    <Compile Include="Math.Prime.Factorization.fs" />
+    <Compile Include="Math.Prime.Factorization.Spec.fs" />
     <Compile Include="Math.Prime.Tester.fs" />
     <Compile Include="Math.Prime.Tester.Spec.fs" />
     <Compile Include="Math.Sequences.Fibonacci.fs" />
