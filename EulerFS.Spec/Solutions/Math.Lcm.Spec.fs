@@ -2,7 +2,7 @@ namespace EulerFS.Math
 
 open NUnit.Framework
 
-module LcmSpec =
+module LcmSpecs =
 
     [<Test>]
     [<TestCase([|3;6|], 6UL)>]

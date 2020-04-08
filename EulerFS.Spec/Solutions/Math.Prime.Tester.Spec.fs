@@ -2,7 +2,7 @@
 
 open NUnit.Framework
 
-module TesterSpec =
+module TesterSpecs =
 
     [<Test>]
     [<TestCase(0UL, false)>]

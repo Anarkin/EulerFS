@@ -2,7 +2,7 @@
 
 open NUnit.Framework
 
-module FactorizationSpec =
+module FactorizationSpecs =
 
     [<Test>]
     [<TestCase(2UL, [| 2 |])>]
