@@ -4,8 +4,9 @@
     <GenerateProgramFile>false</GenerateProgramFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Attributes.fs" />
-    <Compile Include="AutoRunner.fs" />
+    <Compile Include="TestAttributes.fs" />
+    <Compile Include="TestFactory.fs" />
+    <Compile Include="TestRunner.fs" />
     <Compile Include="Solutions/Math.Prime.Factorization.fs" />
     <Compile Include="Solutions/Math.Prime.Factorization.Spec.fs" />
     <Compile Include="Solutions/Math.Prime.Tester.fs" />
