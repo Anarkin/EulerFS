@@ -2,10 +2,13 @@
 
 [PE](https://projecteuler.net) in F# — a sandbox for learning Computer Science, Mathematics, and F#. Originally implemented in 2015, refreshed for 2020.
 
+Note that PE's problems are about more than leetcoding and golfing your way forward: you can find mathematical answers for most solutions, yielding in much more scalable implementations.
+
 [![Build status](https://ci.appveyor.com/api/projects/status/ebw354095sckl362?svg=true)](https://ci.appveyor.com/project/Anarkin/eulerfs)
 
-## How to work on a problem
+## How to work on problems
 
+- Delete the `/Solutions` folder to start from scratch
 - Sketch a problem statement along with a solver:
 
 ```f#
@@ -59,5 +62,4 @@ module (...)
 
 ## Next steps
 
-1. [F# for fun and profit](https://fsharpforfunandprofit.com) ;)
-2. Note that PE's problems are about more than "leetcoding" your way forward: you can find mathematical answers as well for most—if not all—solutions, often in O(1) time
+- [F# for fun and profit](https://fsharpforfunandprofit.com) ;)
