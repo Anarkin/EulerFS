@@ -2,7 +2,7 @@
 
 open NUnit.Framework
 
-module FibonacciSpec =
+module FibonacciSequenceSpec =
 
     [<Test>]
     [<TestCase([| 0; 1; 1; 2; 3; 5; 8; 13; 21 |])>]

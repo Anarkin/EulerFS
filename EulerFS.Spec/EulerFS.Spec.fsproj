@@ -6,23 +6,23 @@
   <ItemGroup>
     <Compile Include="Attributes.fs" />
     <Compile Include="AutoRunner.fs" />
-    <Compile Include="Math.Prime.Factorization.fs" />
-    <Compile Include="Math.Prime.Factorization.Spec.fs" />
-    <Compile Include="Math.Prime.Tester.fs" />
-    <Compile Include="Math.Prime.Tester.Spec.fs" />
-    <Compile Include="Math.Sequences.Fibonacci.fs" />
-    <Compile Include="Math.Sequences.Fibonacci.Spec.fs" />
-    <Compile Include="Math.Lcm.fs" />
-    <Compile Include="Math.Lcm.Spec.fs" />
-    <Compile Include="P001.fs" />
-    <Compile Include="P002.fs" />
-    <Compile Include="P003.fs" />
-    <Compile Include="P004.fs" />
-    <Compile Include="P005.fs" />
-    <Compile Include="P006.fs" />
-    <Compile Include="P007.fs" />
-    <Compile Include="P008.fs" />
-    <Compile Include="P009.fs" />
+    <Compile Include="Solutions/Math.Prime.Factorization.fs" />
+    <Compile Include="Solutions/Math.Prime.Factorization.Spec.fs" />
+    <Compile Include="Solutions/Math.Prime.Tester.fs" />
+    <Compile Include="Solutions/Math.Prime.Tester.Spec.fs" />
+    <Compile Include="Solutions/Math.Sequences.Fibonacci.fs" />
+    <Compile Include="Solutions/Math.Sequences.Fibonacci.Spec.fs" />
+    <Compile Include="Solutions/Math.Lcm.fs" />
+    <Compile Include="Solutions/Math.Lcm.Spec.fs" />
+    <Compile Include="Solutions/P001.fs" />
+    <Compile Include="Solutions/P002.fs" />
+    <Compile Include="Solutions/P003.fs" />
+    <Compile Include="Solutions/P004.fs" />
+    <Compile Include="Solutions/P005.fs" />
+    <Compile Include="Solutions/P006.fs" />
+    <Compile Include="Solutions/P007.fs" />
+    <Compile Include="Solutions/P008.fs" />
+    <Compile Include="Solutions/P009.fs" />
     <Compile Include="_.fs" />
   </ItemGroup>
   <ItemGroup>
