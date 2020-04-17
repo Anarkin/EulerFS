@@ -16,3 +16,12 @@ module ``Multiples of 3 and 5`` =
             match current with
             | i when i % 3 = 0 || i % 5 = 0 -> acc + i
             | _ -> acc) 0
+
+    [<Solver>]
+    let impl3 () =
+
+        let sum (n) =
+            let p = 999 / n
+            (p * (p + 1) / 2) * n
+
+        sum 3 + sum 5 - sum 15
