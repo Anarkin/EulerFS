@@ -8,5 +8,5 @@ module TestRunner =
     [<TestCaseSource(typedefof<TestFactory>, "Get")>]
     let executeSolvers (expected: obj option, solver: unit -> obj) =
         match expected with
-        | None -> Assert.Inconclusive(sprintf "suspected answer is %s" (solver().ToString()))
+        | None -> Assert.Fail(sprintf "suspected answer is %s" (solver().ToString()))
         | Some expected -> Assert.AreEqual(expected, solver())
