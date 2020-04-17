@@ -24,6 +24,7 @@
     <Compile Include="Solutions/P007.fs" />
     <Compile Include="Solutions/P008.fs" />
     <Compile Include="Solutions/P009.fs" />
+    <Compile Include="Solutions/P010.fs" />
     <Compile Include="_.fs" />
   </ItemGroup>
   <ItemGroup>
