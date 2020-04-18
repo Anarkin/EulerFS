@@ -13,6 +13,8 @@
     <Compile Include="Solutions/Math.Prime.Tester.Spec.fs" />
     <Compile Include="Solutions/Math.Sequences.Fibonacci.fs" />
     <Compile Include="Solutions/Math.Sequences.Fibonacci.Spec.fs" />
+    <Compile Include="Solutions/Math.Sequences.Prime.fs" />
+    <Compile Include="Solutions/Math.Sequences.Prime.Spec.fs" />
     <Compile Include="Solutions/Math.Lcm.fs" />
     <Compile Include="Solutions/Math.Lcm.Spec.fs" />
     <Compile Include="Solutions/P001.fs" />
