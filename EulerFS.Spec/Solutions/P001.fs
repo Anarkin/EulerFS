@@ -3,13 +3,13 @@
 [<Problem(001, Answer = 233168)>]
 module ``Multiples of 3 and 5`` =
 
-    [<Solver>]
+  //[<Solver>]
     let impl () =
         seq { 3 .. 999 }
         |> Seq.filter (fun i -> i % 3 = 0 || i % 5 = 0)
         |> Seq.sum
 
-    [<Solver>]
+  //[<Solver>]
     let impl2 () =
         seq { 3 .. 999 }
         |> Seq.fold (fun acc current ->

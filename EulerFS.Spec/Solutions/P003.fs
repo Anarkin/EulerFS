@@ -5,7 +5,7 @@ module ``Largest prime factor`` =
 
     let input = 600851475143UL
 
-    [<Solver>]
+  //[<Solver>]
     let impl () =
         seq { 1UL..(input |> float |> sqrt |> uint64) }
         |> Seq.filter (fun i -> input % i = 0UL) // divisors
