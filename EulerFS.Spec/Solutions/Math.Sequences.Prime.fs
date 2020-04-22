@@ -6,26 +6,16 @@ module PrimeSequence =
 
     let sieve (top) = seq {
 
-     // let sieve = [| for _ in 0 .. top -> false |]
-        let sieve = BitArray(top + 1, false);
+        let sieve = BitArray(top / 2 + 1, false);
 
-        let evenNumbers = [|4 .. 2 .. top|]
-        for i in evenNumbers do
-            sieve.[i] <- true
-
-        yield 2
-        let mutable largest = 2
-
-        for i in 3 .. 2 .. top |> float |> sqrt |> int do
+        for i in 1 .. ((top |> float |> sqrt |> int) - 1) / 2 do
             if not sieve.[i] then
-                yield i
-                largest <- i
-
-                for j in i * i .. i * 2 .. top do
+                for j in 2*i*(i+1) .. 2*i+1 .. top / 2 do
                     sieve.[j] <- true
 
-        for i in largest+1 .. top do
+        yield 2
+        for i in 1 .. (top - 1) / 2 do
             if not sieve.[i] then
-                yield i
+                yield 2*i+1
 
     }
