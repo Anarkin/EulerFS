@@ -11,6 +11,8 @@
     <Compile Include="Solutions/Math.Prime.Factorization.Spec.fs" />
     <Compile Include="Solutions/Math.Prime.Tester.fs" />
     <Compile Include="Solutions/Math.Prime.Tester.Spec.fs" />
+    <Compile Include="Solutions/Math.Factorization.fs" />
+    <Compile Include="Solutions/Math.Factorization.Spec.fs" />
     <Compile Include="Solutions/Math.Sequences.Fibonacci.fs" />
     <Compile Include="Solutions/Math.Sequences.Fibonacci.Spec.fs" />
     <Compile Include="Solutions/Math.Sequences.Prime.fs" />
