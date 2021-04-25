@@ -30,6 +30,7 @@
     <Compile Include="Solutions/P009.fs" />
     <Compile Include="Solutions/P010.fs" />
     <Compile Include="Solutions/P011.fs" />
+    <Compile Include="Solutions/P012.fs" />
     <Compile Include="_.fs" />
   </ItemGroup>
   <ItemGroup>
